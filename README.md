@@ -7,6 +7,8 @@
   - [Tecnologías](#tecnologías)
   - [Estilo de còdigo](#estilo-de-código)
 - [Instalación](#instalación)
+- [Versionamiento](#versionamiento)
+  - [Ramificación](#ramificación)
 
 
 ## Descripción
