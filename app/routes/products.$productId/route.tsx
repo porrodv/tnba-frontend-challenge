@@ -42,18 +42,18 @@ export default function SingleProduct() {
 
   return (
     <>
-      <h5 className='px-16 mt-2 text-zinc-600'>
+      <h5 className='px-16 mt-2 text-zinc-600 max-md:mt-6'>
         Home {'>'}
         <strong className='font-semibold text-zinc-700'> {product.name}</strong>
       </h5>
 
-      <section className='grid grid-cols-[7fr_6fr] px-16 mt-12 gap-6'>
+      <section className='grid grid-cols-[7fr_6fr] px-16 mt-12 gap-6 max-md:grid-cols-1'>
         <div className='relative'>
           <div className='absolute flex flex-col gap-1'>
             {[1, 2, 3].map((e) => (
               <button
                 key={e}
-                className='border border-zinc-500 size-12 rounded-md'
+                className='border border-zinc-500 size-12 rounded-md max-sm:size-10'
               >
                 <img
                   src={product.image}
@@ -66,12 +66,12 @@ export default function SingleProduct() {
           <img
             src={product.image}
             alt=''
-            className='min-h-[300px] max-h-[600px] w-full object-contain'
+            className='min-h-[400px] max-h-[600px] w-full object-contain'
           />
         </div>
         <aside>
           <h1 className='text-2xl font-semibold'>{product.name}</h1>
-          <div className='inline-flex justify-between w-full items-center mt-3'>
+          <div className='flex justify-between w-full items-center gap-2 mt-3 xl:flex-row xl:items-center lg:flex-row max-xl:items-start md:flex-col max-sm:flex-col'>
             <div className='grid gap-1'>
               <h3 className='text-zinc-500 text-lg'>{product.branch}</h3>
               <h3 className='text-red-500 text-sm'>
@@ -90,7 +90,7 @@ export default function SingleProduct() {
             <span className='text-zinc-800'>(2)</span>
           </div>
 
-          <div className='mt-10 text-3xl'>
+          <div className='mt-10 text-3xl max-lg:mt-4'>
             <del className='text-zinc-500 text-xl'>${formattedPrice}</del>
             <h2 className='text-red-600 font-bold'>
               {formattedDiscountedPrice}{' '}
@@ -102,8 +102,8 @@ export default function SingleProduct() {
 
           <div className='mt-6'>
             <p className='text-md'>Quantity</p>
-            <div className='flex justify-between mt-1 gap-2'>
-              <div className='h-14 w-44'>
+            <div className='flex justify-between mt-1 gap-2 max-lg:flex-col'>
+              <div className='h-14 w-44 max-lg:w-full'>
                 <div className='flex flex-row w-full h-full relative bg-zinc-100 border border-zinc-300 rounded-xl'>
                   <button
                     data-action='decrement'
@@ -125,24 +125,26 @@ export default function SingleProduct() {
                   </button>
                 </div>
               </div>
-              <button className='w-full rounded-xl bg-red-500 text-white flex items-center justify-center gap-2 transition-all duration-100 hover:bg-red-600'>
-                <ShoppingCart />
-                <span>Add to cart</span>
-              </button>
+              <div className='w-full h-14'>
+                <button className='w-full h-full rounded-xl bg-red-500 text-white flex items-center justify-center gap-2 transition-all duration-100 hover:bg-red-600'>
+                  <ShoppingCart />
+                  <span>Add to cart</span>
+                </button>
+              </div>
             </div>
           </div>
         </aside>
       </section>
 
-      <article className='px-16 mt-2 mb-10'>
-        <div className='w-full grid grid-cols-4 border-b-2 border-b-zinc-400 mb-10'>
+      <article className='px-16 mt-2 mb-10 max-md:mt-10'>
+        <div className='w-full grid grid-cols-4 mb-10 max-sm:grid-cols-2'>
           {sections.map((section) => (
             <button
               key={section.id}
               onClick={() => {
                 handleToggleSection(section.id);
               }}
-              className={`w-full p-1 border-b-2 transition-all ${section.id === currentSection ? 'text-red-500 font-semibold border-b-red-500' : 'text-zinc-500 border-b-transparent'}`}
+              className={`w-full p-1 border-b-2 transition-all ${section.id === currentSection ? 'text-red-500 font-semibold border-b-red-500' : 'border-b-zinc-400 text-zinc-500 border-b-transparent'}`}
             >
               {section.name}
             </button>

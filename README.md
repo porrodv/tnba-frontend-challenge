@@ -18,8 +18,11 @@ El objetivo es migrar un fragmento de web e-commerce maquetado de forma nativa h
 Se trabajó en base a 4 rutas principales dentro de la plataforma:
 
 `/` : Landing principal
+
 `/free-delivery-and-welding-helmet-support` : Vista con detalles del delivery gratuito
+
 `/products/` : Lista completa de productos disponibles
+
 `/products/$productId` : Detalles de un producto seleccionado
 
 ### Vista previa

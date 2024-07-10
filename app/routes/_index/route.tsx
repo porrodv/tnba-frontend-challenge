@@ -43,7 +43,7 @@ export default function Index() {
         url='/products'
       />
       <Info />
-      <Blog articles={articles} url='.' />
+      <Blog articles={articles} url='/' />
     </>
   );
 }

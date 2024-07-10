@@ -6,7 +6,7 @@ export default function Comments() {
     <section id='comments'>
       <h2 className='text-xl text-zinc-700 font-semibold'>10 Reviews</h2>
       <div className='border border-zinc-300 rounded-lg w-full p-4 mt-4 mb-14'>
-        <div className='grid grid-cols-2 gap-2 text-zinc-700'>
+        <div className='grid grid-cols-2 gap-10 text-zinc-700 max-sm:grid-cols-1'>
           <div className='w-full flex flex-col justify-between'>
             <div>
               <h2 className='text-6xl font-semibold text-zinc-800 mb-2'>4.4</h2>
@@ -16,7 +16,7 @@ export default function Comments() {
                 ))}
               </div>
             </div>
-            <p className='text-zinc-500 text-lg'>
+            <p className='text-zinc-500 text-lg max-md:text-sm'>
               Everything from verified purchases
             </p>
           </div>
@@ -42,7 +42,7 @@ export default function Comments() {
         </div>
       </div>
 
-      <div className='grid grid-cols-2 gap-3'>
+      <div className='grid grid-cols-2 gap-3 max-sm:grid-cols-1'>
         <Comment
           name='Paddy E.'
           description='Just did a solid week gouging and welding wearing this mask at

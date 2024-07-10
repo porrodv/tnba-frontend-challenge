@@ -9,7 +9,7 @@ export default function FreeDelivery() {
 
       <div className='w-full grid grid-cols-2 gap-14 mt-6 max-md:grid-cols-1'>
         <img
-          src='/public/images/delivery.png'
+          src='../../../public/images/delivery.png'
           alt='Free delivery'
           className='w-full min-h-[300px]'
         />

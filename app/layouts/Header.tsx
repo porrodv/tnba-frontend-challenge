@@ -111,7 +111,7 @@ export default function Header() {
             href='/cart'
           >
             <ShoppingCart size={30} />
-            <div className='absolute top-1 right-0 bg-red-600 rounded-full size-5 text-white grid place-items-center text-xs font-semibold group-hover:text-sm'>
+            <div className='absolute top-0 right-0 bg-red-600 rounded-full size-5 text-white grid place-items-center text-xs font-semibold'>
               <span>0</span>
             </div>
           </a>
