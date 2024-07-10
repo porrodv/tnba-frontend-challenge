@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "3M Speedglas G5-01VC Heavy-Duty Flip-Up Welding Helmet with Adflo PAPR",
+    "branch": "3M Speedglas",
+    "category": 1,
+    "partNumber": "617830",
+    "price": 2858.9,
+    "discountPercentage": 50,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/files/speedglas_g5_01vc_welding_helmet_with_adflo_papr_617830_ef90d245-4899-45eb-9707-ee16f1db5c43.webp?v=1708713114&amp;width=100&amp;height=100&amp;crop=center"
+  },
+  {
+    "id": 2,
+    "name": "3M Speedglas G5-01 TW Heavy-Duty Flip-Up Welding Helmet with Adflo PAPR",
+    "branch": "3M Speedglas",
+    "category": 1,
+    "partNumber": "617820",
+    "price": 2583.9,
+    "discountPercentage": 40,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/files/speedglas_g5_01vc_welding_helmet_with_adflo_papr_617830_ef90d245-4899-45eb-9707-ee16f1db5c43.webp?v=1708713114&amp;width=100&amp;height=100&amp;crop=center"
+  },
+  {
+    "id": 3,
+    "name": "3M Speedglas Flip-Up Welding Helmet 9100XXi FX Air with Heavy Duty Adflo PAPR 547726HD",
+    "branch": "3M Speedglas",
+    "category": 1,
+    "partNumber": "547726HD",
+    "price": 2737.9,
+    "discountPercentage": 60,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/files/547726HD.png?v=1700745869&amp;width=200&amp;height=200&amp;crop=center    200w"
+  },
+  {
+    "id": 4,
+    "name": "3M Speedglas Welding Helmet 9100XXi Air with Adflo PAPR",
+    "branch": "3M Speedglas",
+    "category": 1,
+    "partNumber": "507726",
+    "price": 2033.9,
+    "discountPercentage": 25,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/products/507726.png?v=1678047332&width=400&height=400&crop=center"
+  },
+  {
+    "id": 5,
+    "name": "3M Speedglas G5-01VC Heavy-Duty Flip-Up Welding Helmet with Adflo PAPR",
+    "branch": "3M Speedglas",
+    "category": 2,
+    "partNumber": "617830",
+    "price": 2858.9,
+    "discountPercentage": 40,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/files/speedglas_g5_01vc_welding_helmet_with_adflo_papr_617830_ef90d245-4899-45eb-9707-ee16f1db5c43.webp?v=1708713114&amp;width=100&amp;height=100&amp;crop=center"
+  },
+  {
+    "id": 6,
+    "name": "3M Speedglas Flip-Up Welding Helmet 9100XXi FX",
+    "branch": "3M Speedglas",
+    "category": 2,
+    "partNumber": "541826",
+    "price": 966.9,
+    "discountPercentage": 30,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/products/541826.png?v=1678045763&amp;width=200&amp;height=200&amp;crop=center    200w"
+  },
+  {
+    "id": 7,
+    "name": "Tecmen FreFlow V3 iExp950 Flip-Up Welding Helmet with PAPR",
+    "branch": "ClearWelding",
+    "category": 2,
+    "partNumber": "WHFFV3.950S",
+    "price": 1950,
+    "discountPercentage": 20,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/products/PAPR-TM1000.jpg?v=1598925831&amp;width=200&amp;height=200&amp;crop=center    200w"
+  },
+  {
+    "id": 8,
+    "name": "Tecmen iExp950 Flip-Up Welding Helmet",
+    "branch": "ClearWelding",
+    "category": 2,
+    "partNumber": "WH950.BK",
+    "price": 800,
+    "discountPercentage": 40,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/products/PAPR-TM1000.jpg?v=1598925831&amp;width=200&amp;height=200&amp;crop=center    200w"
+  },
+  {
+    "id": 9,
+    "name": "3M Speedglas Welding Helmet 9100XXi",
+    "branch": "3M Speedglas",
+    "category": 3,
+    "partNumber": "501826",
+    "price": 691.9,
+    "discountPercentage": 15,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/products/501826.png?v=1678047294&amp;width=200&amp;height=200&amp;crop=center    200w"
+  },
+  {
+    "id": 10,
+    "name": "3M Speedglas Welding Helmet 9100XXi Air with Adflo PAPR",
+    "branch": "3M Speedglas",
+    "category": 3,
+    "partNumber": "507726",
+    "price": 2033.9,
+    "discountPercentage": 30,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/products/507726.png?v=1678047332&width=400&height=400&crop=center"
+  },
+  {
+    "id": 11,
+    "name": "3M Speedglas Flip-Up Welding Helmet 9100XXi FX",
+    "branch": "ClearWelding",
+    "category": 3,
+    "partNumber": "541826",
+    "price": 966.9,
+    "discountPercentage": 20,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/products/541826.png?v=1678045763&amp;width=200&amp;height=200&amp;crop=center    200w"
+  },
+  {
+    "id": 12,
+    "name": "3M Speedglas Flip-Up Welding Helmet 9100XXi FX Air with Adflo PAPR",
+    "branch": "ClearWelding",
+    "category": 3,
+    "partNumber": "547726",
+    "price": 2605.9,
+    "discountPercentage": 40,
+    "image": "https://cdn.shopify.com/s/files/1/3009/5686/files/547726HD.png?v=1700745869&amp;width=200&amp;height=200&amp;crop=center    200w"
+  }
+]

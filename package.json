@@ -1,0 +1,66 @@
+{
+  "name": "tnba-frontend-challenge",
+  "version": "1.0.0",
+  "description": "Prueba técnica para TNBA - desarrollador Frontend",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/porrodv/tnba-frontend-challenge"
+  },
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
+    "start": "remix-serve ./build/server/index.js",
+    "typecheck": "tsc",
+    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "typescript",
+    "frontend"
+  ],
+  "author": "Alexander Porro <alex1020pl@gmail.com>",
+  "contributors": [
+    {
+      "name": "Alexander Porro",
+      "email": "alex1020pl@gmail.com",
+      "url": "https://github.com/porrodv"
+    }
+  ],
+  "dependencies": {
+    "@remix-run/node": "^2.10.2",
+    "@remix-run/react": "^2.10.2",
+    "@remix-run/serve": "^2.10.2",
+    "dayjs": "^1.11.11",
+    "flowbite": "^2.4.1",
+    "isbot": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.10.2",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.38.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.1.6",
+    "vite": "^5.1.0",
+    "vite-tsconfig-paths": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
