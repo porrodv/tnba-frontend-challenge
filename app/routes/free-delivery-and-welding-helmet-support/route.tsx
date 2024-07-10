@@ -1,13 +1,9 @@
-import {
-  FreeDelivery,
-  Promise,
-  Support,
-} from '~/components/Pages/DeliverySupport';
+import { Free, Promise, Support } from '~/components/sections/delivery';
 
 export default function DeliveryAndSupport() {
   return (
     <>
-      <FreeDelivery />
+      <Free />
       <Promise />
       <Support />
     </>

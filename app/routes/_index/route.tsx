@@ -1,10 +1,9 @@
 import { useLoaderData } from '@remix-run/react';
 import { json } from '@remix-run/node';
 
-import { Blog, Hero, Info, ProductList } from '~/components/Pages/Home';
-
 import products from '../../../public/data/products.json';
 import articles from '../../../public/data/articles.json';
+import { Hero, ProductList, Info, Blog } from '~/components/sections/home';
 
 const images: string[] = [
   'https://cdn.shopify.com/s/files/1/3009/5686/files/sliderhosecover.png?v=1716243767',

@@ -14,9 +14,7 @@ export const meta: MetaFunction = () => {
 };
 
 export const links: LinksFunction = () => {
-  return [
-    { rel: 'icon', href: '/public/images/assets/ico.svg', type: 'image/jpg' },
-  ];
+  return [{ rel: 'icon', href: '/images/assets/ico.svg', type: 'image/jpg' }];
 };
 
 export default function App() {

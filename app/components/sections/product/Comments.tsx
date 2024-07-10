@@ -1,5 +1,5 @@
-import { Comment } from '~/components/Product/Sections/';
 import { Star } from 'react-feather';
+import { ProductComment } from '~/components';
 
 export default function Comments() {
   return (
@@ -43,7 +43,7 @@ export default function Comments() {
       </div>
 
       <div className='grid grid-cols-2 gap-3 max-sm:grid-cols-1'>
-        <Comment
+        <ProductComment
           name='Paddy E.'
           description='Just did a solid week gouging and welding wearing this mask at
             Groote Eylandt mine in the NT, 38 degrees and very humid pretty much
@@ -56,17 +56,17 @@ export default function Comments() {
             recommending him to lots of other boilermakers. Cheers mate.'
           date='2018-12-10T13:45:00.000Z'
         />
-        <Comment
+        <ProductComment
           name='Gayle K.'
           description={`I'm sorry I didn't buy this helmet years ago! It's easy and conformable to wear once on you hardly notice it the back pack, the safety glass is very clear and good wide vision. Feel good on way home after work,  no red face. I don't get  dirty and breathing clean air makes a big difference, don't get tired any more. Long life battery. Good for all types of welding.  I've been wearing this helmet for many weeks now and  found no down side to this product , it should be compulsory for the industry. `}
           date='2018-12-10T13:45:00.000Z'
         />
-        <Comment
+        <ProductComment
           name='Trent G.'
           description='G1-05vc 3M speedglas adflow welding helmet has to be one of the best purchases I have made in my career as a boilermaker absolutely love it wish I had done it years ago.'
           date='2018-12-10T13:45:00.000Z'
         />
-        <Comment
+        <ProductComment
           name='Glenn C.'
           description='Great deal and very fast delivery!'
           date='2018-12-10T13:45:00.000Z'

@@ -1,5 +1,5 @@
 import { Product } from '~/interfaces/product.interface';
-import { ProductCard } from '~/components/Product';
+import { ProductCard } from '~/components';
 
 interface Props {
   title: string;

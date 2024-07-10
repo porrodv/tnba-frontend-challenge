@@ -4,7 +4,11 @@ import { useParams } from '@remix-run/react';
 import { getDiscountedPrice, getFormattedPrice } from '~/utils';
 import { Minus, Plus, ShoppingCart, Star } from 'react-feather';
 import { useState } from 'react';
-import { Comments, Description, Specifications } from '~/components/Product';
+import {
+  Comments,
+  Description,
+  Specifications,
+} from '~/components/sections/product';
 
 interface Section {
   id: number;

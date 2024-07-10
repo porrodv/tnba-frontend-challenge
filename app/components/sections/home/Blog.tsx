@@ -1,5 +1,5 @@
 import { BlogArticle } from '~/interfaces';
-import { BlogCard } from '~/components/Pages/Home';
+import { BlogCard } from '~/components';
 import { ChevronRight } from 'react-feather';
 
 interface Props {

@@ -1,4 +1,4 @@
-import { HeroCard, Carousel } from '~/components/Pages/Home';
+import { HeroCard, Carousel } from '~/components';
 
 interface Props {
   carouselImages: string[];
