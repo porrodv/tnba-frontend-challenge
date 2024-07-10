@@ -1,9 +1,6 @@
 export default function Support() {
   return (
-    <section
-      id='support'
-      className='text-center w-full text-zinc-700 my-32 px-16'
-    >
+    <section id='support' className='text-center w-full text-zinc-700 mt-44'>
       <h1 className='text-3xl font-semibold font-mont'>
         Our legendary support
       </h1>

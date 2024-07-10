@@ -14,12 +14,12 @@ export default function Promise() {
   return (
     <section
       id='delivery-promise'
-      className='text-center w-full text-zinc-700 mt-32 px-16'
+      className='text-center w-full text-zinc-700 mt-44'
     >
       <h1 className='text-3xl font-semibold font-mont'>Our delivery promise</h1>
 
       <div className='w-full grid grid-cols-2 gap-14 mt-14 max-md:grid-cols-1'>
-        <article className='text-start flex flex-col justify-center'>
+        <article className='text-justify flex flex-col justify-center'>
           <h3 className='text-lg'>
             Welding Helmets Online attempt to carry all core and fast moving
             products in stock.{' '}

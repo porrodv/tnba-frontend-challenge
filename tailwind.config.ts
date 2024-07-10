@@ -9,7 +9,16 @@ export default {
       poppins: ['Poppins', 'sans-serif'],
       system: ['system-ui', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      margin: {
+        c2xl: '8rem',
+        cxl: '6.5rem',
+        clg: '4rem',
+        cmd: '3rem',
+        csm: '2rem',
+        cxs: '1.5rem',
+      },
+    },
   },
   plugins: [],
 } satisfies Config;

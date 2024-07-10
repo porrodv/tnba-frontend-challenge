@@ -26,23 +26,27 @@ export default function Index() {
   return (
     <>
       <Hero carouselImages={images} />
-      <ProductList
-        title='WELDING HELMETS WITH A PAPR'
-        products={products1}
-        url='/products'
-      />
-      <ProductList
-        title='FLIP-UP WELDING HEMLETS'
-        products={products2}
-        url='/products'
-      />
-      <ProductList
-        title='WELDING HELMETS WITH LARGE VIEWS AND CRISP VISION'
-        products={products3}
-        url='/products'
-      />
+      <div className='2xl:mx-c2xl xl:mx-cxl lg:mx-clg md:mx-cmd sm:mx-csm max-sm:mx-cxs'>
+        <ProductList
+          title='WELDING HELMETS WITH A PAPR'
+          products={products1}
+          url='/products'
+        />
+        <ProductList
+          title='FLIP-UP WELDING HEMLETS'
+          products={products2}
+          url='/products'
+        />
+        <ProductList
+          title='WELDING HELMETS WITH LARGE VIEWS AND CRISP VISION'
+          products={products3}
+          url='/products'
+        />
+      </div>
       <Info />
-      <Blog articles={articles} url='/' />
+      <div className='mb-28 2xl:mx-c2xl xl:mx-cxl lg:mx-clg md:mx-cmd sm:mx-csm max-sm:mx-cxs'>
+        <Blog articles={articles} url='/articles' />
+      </div>
     </>
   );
 }

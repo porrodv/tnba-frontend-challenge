@@ -2,7 +2,7 @@ export default function Free() {
   return (
     <section
       id='free-delivery'
-      className='text-center w-full text-zinc-700 mt-10 px-16'
+      className='text-center w-full text-zinc-700 mt-14'
     >
       <h1 className='text-3xl font-semibold font-mont'>Free delivery</h1>
       <h3 className='text-lg text-zinc-500 font-mont'>In orders over $200</h3>
@@ -13,7 +13,7 @@ export default function Free() {
           alt='Free delivery'
           className='w-full min-h-[300px]'
         />
-        <article className='flex flex-col  justify-center text-start'>
+        <article className='flex flex-col text-justify justify-center'>
           <h3 className='text-lg font-medium'>
             When you purchase over $200 you pay nothing to have your{' '}
             <strong className='text-yellow-300'>welding helmet, PAPR</strong> or{' '}

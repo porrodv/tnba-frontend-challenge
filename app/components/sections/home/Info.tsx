@@ -2,7 +2,7 @@ export default function Info() {
   return (
     <section
       id='info'
-      className='w-full px-4 text-zinc-800 py-28 bg-gradient-to-t from-white via-zinc-100 to-white'
+      className='w-full text-zinc-800 mt-28 bg-gradient-to-t from-white via-zinc-100 to-white'
     >
       <article className='w-full text-center flex flex-col items-center'>
         <div className='w-1/2 max-md:w-full'>

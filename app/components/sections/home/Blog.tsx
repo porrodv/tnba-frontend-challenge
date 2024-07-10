@@ -9,11 +9,11 @@ interface Props {
 
 export default function Blog({ articles, url }: Props) {
   return (
-    <section id='blog' className='w-full text-center mb-4 p-6'>
+    <section id='blog' className='w-full text-center mt-28'>
       <h1 className='text-3xl text-zinc-700 font-bold my-4 mb-6 font-mont'>
         CHECK OUR WELDING HELMET BLOG
       </h1>
-      <div className='grid grid-cols-3 gap-8 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1'>
+      <div className='grid grid-cols-3 gap-6 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1'>
         {articles.map((item) => (
           <BlogCard
             key={item.id}

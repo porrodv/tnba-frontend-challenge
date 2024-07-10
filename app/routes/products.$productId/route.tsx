@@ -1,9 +1,11 @@
-import products from '../../../public/data/products.json';
-import { Product } from '~/interfaces';
-import { useParams } from '@remix-run/react';
-import { getDiscountedPrice, getFormattedPrice } from '~/utils';
-import { Minus, Plus, ShoppingCart, Star } from 'react-feather';
+import { redirect, useParams } from '@remix-run/react';
 import { useState } from 'react';
+import { Minus, Plus, ShoppingCart, Star } from 'react-feather';
+
+import { Product } from '~/interfaces';
+import products from '../../../public/data/products.json';
+import { getDiscountedPrice, getFormattedPrice } from '~/utils';
+
 import {
   Comments,
   Description,
@@ -33,7 +35,9 @@ export default function SingleProduct() {
     (item) => item.id === parseInt(productId),
   );
 
-  if (product === undefined) return; // TODO: page 404
+  if (product === undefined) {
+    return redirect('/');
+  }
 
   const formattedPrice = getFormattedPrice(product.price);
   const formattedDiscountedPrice = getFormattedPrice(
@@ -45,13 +49,16 @@ export default function SingleProduct() {
   };
 
   return (
-    <>
-      <h5 className='px-16 mt-2 text-zinc-600 max-md:mt-6'>
+    <div className='mb-28 2xl:mx-c2xl xl:mx-cxl lg:mx-clg md:mx-cmd sm:mx-csm max-sm:mx-cxs'>
+      <h5 className='mt-6 text-zinc-600'>
         Home {'>'}
         <strong className='font-semibold text-zinc-700'> {product.name}</strong>
       </h5>
 
-      <section className='grid grid-cols-[7fr_6fr] px-16 mt-12 gap-6 max-md:grid-cols-1'>
+      <main
+        id='summary'
+        className='grid grid-cols-[7fr_6fr] mt-14 gap-6 max-md:grid-cols-1'
+      >
         <div className='relative'>
           <div className='absolute flex flex-col gap-1'>
             {[1, 2, 3].map((e) => (
@@ -67,10 +74,13 @@ export default function SingleProduct() {
               </button>
             ))}
           </div>
+          <div className='absolute text-lg text-zinc-100 bg-red-500 rounded-md py-1 px-2 z-10 font-bold right-0 top-0'>
+            -{10}%
+          </div>
           <img
             src={product.image}
             alt=''
-            className='min-h-[400px] max-h-[600px] w-full object-contain'
+            className='min-h-[400px] max-h-[450px] w-full object-contain'
           />
         </div>
         <aside>
@@ -138,9 +148,9 @@ export default function SingleProduct() {
             </div>
           </div>
         </aside>
-      </section>
+      </main>
 
-      <article className='px-16 mt-2 mb-10 max-md:mt-10'>
+      <article id='details' className='mt-2 mb-10 max-lg:mt-10'>
         <div className='w-full grid grid-cols-4 mb-10 max-sm:grid-cols-2'>
           {sections.map((section) => (
             <button
@@ -164,6 +174,6 @@ export default function SingleProduct() {
           <h1>nothing</h1>
         )}
       </article>
-    </>
+    </div>
   );
 }

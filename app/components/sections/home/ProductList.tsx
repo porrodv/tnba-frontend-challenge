@@ -9,7 +9,7 @@ interface Props {
 
 export default function ProductList({ title, products, url }: Props) {
   return (
-    <section className='text-zinc-700 p-6 mt-14'>
+    <section className='text-zinc-700 mt-24'>
       <h1 className='text-center my-4 mb-6 text-3xl font-bold font-mont'>
         {title}
       </h1>
@@ -28,7 +28,7 @@ export default function ProductList({ title, products, url }: Props) {
           />
         ))}
       </div>
-      <div className='w-full text-center mt-10'>
+      <div className='w-full grid place-items-center text-center mt-10'>
         <a
           href={url}
           className='rounded-full py-2 px-6 text-lg border border-zinc-600 text-zinc-600 font-semibold hover:bg-zinc-600 hover:text-white transition-all duration-100'

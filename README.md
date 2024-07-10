@@ -70,6 +70,29 @@ $ npm install
 $ npm run build
 ```
 
+
+## Versionamiento
+
+Para mantener un flujo de versionamiento consistente en este proyecto, se siguen los principios de [versionado semántico][semver_link] de software para la numeración de versiones del aplicativo y principios de [commits convencionales][conv-commits_link] para la creación de mensajes uniformes de cambios en el repositorio.
+
+### Ramificación
+
+La creación y administración de ramas sigue una estrcutura fija y conjunto de buenas prácticas con el propósito de ordenar las versiones que son desplegadas como oficiales del sistema.
+
+#### Ramas principales
+
+**`main`** : Solo se realizan cambios mediante pull requests aprobados y previamente revisados desde la rama *`dev`*. Las versiones alojadas en esta rama deben ser estables, libre de errores y adecuadas para despliegues. Cada versión debe estar acompañada de un [tag en GitHub][github-tag_link].
+
+**`dev`**: Aquí se integran cambios mediante merges o pull requests aprobados y previamente revisados. Las versiones alojadas en esta rama son colecciones de commits que agrupan funcionalidades completas implementadas en otras ramas. Cada actualización representa la culminación de una característica lista para ser fusionada con *`main`*.
+
+#### Ramas temporales
+
+La rama describe la acción trabajada y una breve desrcipción de la característica que se está desarrollando.
+
+    ├── feat/user-service
+    ├── fix/decimal-format-bug
+    ...
+
 <!-- Links -->
 [tnba_link]: https://thenewbusinessagency.com/
 [react_link]: https://es.react.dev/
@@ -77,6 +100,9 @@ $ npm run build
 [tailwind_link]: https://tailwindcss.com/
 [remix_link]: https://remix.run/
 [nodejs_link]: https://nodejs.org/en
+[semver_link]: https://semver.org/lang/es/
+[conv-commits_link]: https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
+[github-tag_link]: https://git-scm.com/book/en/v2/Git-Basics-Tagging
 
 <!-- Imágenes -->
 [main_view]: ./public/images/app1.png
