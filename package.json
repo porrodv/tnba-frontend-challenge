@@ -1,11 +1,11 @@
 {
-  "name": "tnba-frontend-challenge",
+  "name": "welding-helmets-online-ecommerce-design",
   "version": "1.0.0",
-  "description": "Prueba técnica para TNBA - desarrollador Frontend",
+  "description": "Diseño de web e-commerce de Welding Helmets Online | Prueba técnica de desarrollador Front-end",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/porrodv/tnba-frontend-challenge"
+    "url": "https://github.com/porrodv/welding-helmets-online-ecommerce-design"
   },
   "scripts": {
     "build": "remix vite:build",

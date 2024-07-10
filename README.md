@@ -1,11 +1,11 @@
-<h1 align="center">Prueba técnica | Desarrollador <strong style="color: blue">Front-end</strong></h1>
+# Welding Helmets Online e-commerce (diseño)
 
 ## Tabla de contenido
 
 - [Descripción](#descripción)
   - [Vista previa](#vista-previa)
   - [Tecnologías](#tecnologías)
-  - [Estilo de còdigo](#estilo-de-código)
+  - [Estilo de código](#estilo-de-código)
 - [Instalación](#instalación)
 - [Versionamiento](#versionamiento)
   - [Ramificación](#ramificación)
@@ -13,7 +13,7 @@
 
 ## Descripción
 
-Prueba ténica para el puesto de desarrollador front-end en [The New Business Agency][tnba_link].
+Prueba técnica de desarrollador front-end para *[The New Business Agency][tnba_link]*.
 
 El objetivo es migrar un fragmento de web e-commerce maquetado de forma nativa hacia una tecnología front-end más escalable y reusable. Con ello, se buscó rediseñar, reestructurar y agregar secciones en la web con el propósito de mejorar la experiencia de usuario.
 
@@ -37,7 +37,7 @@ Se trabajó en base a 4 rutas principales dentro de la plataforma:
 
 ### Tecnologías
 
-El proyecto se encuentra desarrollado con [React][react_link] + [Remix](remix_link) , [TypeScript][typescript_link] y usa [Tailwind CSS][tailwind_link] para estilos personalizados. La arquitectura basa su estructura en los principios de ...
+El proyecto se encuentra desarrollado con [React][react_link] + [Remix](remix_link) , [TypeScript][typescript_link] y usa [Tailwind CSS][tailwind_link] para estilos personalizados.
 
 <div style="display: inline_block, margin: 0px 1px">
   <img align="center" alt="react-icon" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
